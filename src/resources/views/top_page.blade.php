@@ -1,13 +1,17 @@
-@extends('layouts.app')
+<!DOCTYPE html>
+<html lang="ja">
 
-@section('css')
-<link rel="stylesheet" href="{{ asset('css//top_page.css') }}">
-@endsection
+<head>
+  <meta charset="UTF-8">
+  <meta name="csrf-token" content="{{ csrf_token() }}">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TopPage</title>
+</head>
 
-@section('content')
+<body>
+  <div class="topp__content">
+    <h1>ブラウザに画面を表示するだけ。</h1>
+  </div>
+</body>
 
-<div class="topp__content">
-  <h1>ブラウザに画面を表示するだけ。</h1>
-</div>
-
-@endsection
+</html>
